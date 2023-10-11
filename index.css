@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+	background-image: url("청룡 이미지.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh; /*브라우저의 뷰 전체를 다 쓰겠다*/
+
+	display: flex; /*가로정렬*/
+	align-items: center;
+	justify-content: center;
+
+	flex-direction: column;
+}
+h1{
+	color :rgb(2, 36, 7);
+	font-size: 70px;
+	margin-bottom: 50px;
+}
+/* 클래스로 접근하면 점(.)을 붙이지만 태그는 붙이지 않음 */
+
+.counter_timer{
+	display: flex;
+	color :rgb(1, 29, 19);
+	font-size: 20px;
+	text-align: center;
+}
+.count{
+	margin-left: 50px;
+}
+.big{
+	font-size : 40px;
+	font-weight: 1000px;
+}
